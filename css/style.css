@@ -359,7 +359,7 @@ body::after {
 }
 
 .menu__link {
-  color: #6B7280;
+  color: #fff;
   font-weight: 500;
   line-height: 1.5555555556;
 }
@@ -1338,10 +1338,10 @@ body::after {
   .menu__body {
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top: 0;
     left: -100%;
-    background-color: #9390bd;
+    background-color: rgba(147, 148, 140, 0.721);
     overflow: auto;
     padding: 0 0.9375rem 0.9375rem 1.875rem;
     -webkit-transition: all 0.3s;
@@ -1357,7 +1357,7 @@ body::after {
     content: "";
     position: fixed;
     width: 100%;
-    background-color: #9691e0;
+    background-color: rgba(239, 227, 244, 0.663);
     left: -100%;
     top: 0;
     -webkit-transition: all 0.3s;
