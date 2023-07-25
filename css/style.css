@@ -234,6 +234,15 @@ body::after {
   visibility: visible;
 }
 
+.popup__close {
+  display: block;
+  margin-left: auto;
+}
+
+.popup__text {
+  margin-top: 1.875rem;
+}
+
 [class*=-ibg] {
   position: relative;
 }
@@ -281,7 +290,7 @@ body::after {
 }
 
 .header._header-scroll {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(168, 164, 164, 0.9);
 }
 
 .header__container {
